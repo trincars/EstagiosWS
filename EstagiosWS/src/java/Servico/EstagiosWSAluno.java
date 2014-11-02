@@ -16,11 +16,11 @@ import javax.jws.WebMethod;
  * @author 00280076
  */
 @WebService(serviceName = "EstagioWSAluno")
-public class EstagioWSAluno {
+public class EstagiosWSAluno {
 
     private FachadaEstagios fachaEstagios;
 
-    public EstagioWSAluno() {
+    public EstagiosWSAluno() {
         fachaEstagios = new FachadaEstagios();
     }
 

@@ -4,11 +4,11 @@
     <service name="EstagiosWSCoordenador">
       <implementation-class>Servico.EstagiosWSCoordenador</implementation-class>
     </service>
-    <service name="EstagioWSAluno">
-      <implementation-class>Servico.EstagioWSAluno</implementation-class>
-    </service>
     <service name="EstagiosWSSupervisor">
       <implementation-class>Servico.EstagiosWSSupervisor</implementation-class>
+    </service>
+    <service name="EstagiosWSAluno">
+      <implementation-class>Servico.EstagiosWSAluno</implementation-class>
     </service>
   </services>
   <clients/>
